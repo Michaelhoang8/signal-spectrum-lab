@@ -1,5 +1,7 @@
 # Signal spectrum lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/signal-spectrum-lab/)**
+
 A radix-2 complex FFT implemented from source, with calibrated amplitude spectra, power spectral density and a short-time Fourier transform. Nine synthetic mono PCM16 WAV fixtures are committed and decoded before analysis. The repository preserves 22 full spectra, 61 chirp STFT frames, reference comparisons and 56 actual timing observations.
 
 [Technical report](docs/report.html) · [Chirp replay with audio](docs/media/chirp-replay.mp4) · [Formulae and units](docs/formulae.md) · [Methodology](docs/methodology.md) · [Findings](docs/findings.md) · [Audio fixtures](results/published/audio) · [Screenshots](docs/screenshots/README.md) · [Report recording](docs/recordings/README.md)
