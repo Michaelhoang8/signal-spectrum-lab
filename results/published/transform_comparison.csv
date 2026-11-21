@@ -1,0 +1,5 @@
+samples,reference,max_abs_complex_error,inverse_max_abs_error,parseval_abs_error
+64,numpy.fft.fft complex128 default backward normalization,2.6645352591003757e-15,1.074787743319883e-16,0.0
+256,numpy.fft.fft complex128 default backward normalization,8.881784197001252e-15,1.5314679758856252e-16,0.0
+1024,numpy.fft.fft complex128 default backward normalization,1.7698222599439695e-14,2.0045378318047802e-16,0.0
+4096,numpy.fft.fft complex128 default backward normalization,2.3898437090739065e-14,2.4133394930439493e-16,0.0

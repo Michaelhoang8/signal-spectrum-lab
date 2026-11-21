@@ -1,0 +1,11 @@
+{
+  "fixture": "chirp",
+  "window": "periodic Hann",
+  "frame_size": 512,
+  "hop": 128,
+  "frames": 61,
+  "bins": 257,
+  "used_samples": 8192,
+  "discarded_tail_samples": 0,
+  "timestamp": "Midpoint between first and last sample of each complete frame; no centering or padding"
+}

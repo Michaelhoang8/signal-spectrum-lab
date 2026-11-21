@@ -1,0 +1,34 @@
+name: Validate transforms and spectral evidence
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install package and pinned reference dependencies
+        run: python -m pip install -e . -r requirements.txt
+      - name: Verify transforms and preserved artifacts
+        run: python -m unittest discover -s tests -v
+      - name: Create a separate compact measured run
+        run: python scripts/run_study.py --out outputs/ci-reproduction --repetitions 2
+      - name: Reconcile the fresh run
+        env:
+          SPECTRUM_RESULTS: outputs/ci-reproduction
+        run: python -m unittest discover -s tests -v
+      - name: Preserve fresh CI evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: signal-spectrum-ci-evidence
+          path: outputs/ci-reproduction

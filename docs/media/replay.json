@@ -1,0 +1,24 @@
+{
+  "frames": 180,
+  "fps": 30,
+  "duration_seconds": 6,
+  "width": 1200,
+  "height": 720,
+  "repeats": 4,
+  "intro_silence_seconds": 1,
+  "outro_silence_seconds": 1,
+  "audio_policy": "Four exact original-speed PCM repeats, then preview encoded as AAC at 48000 Hz; raw 8192-Hz WAV remains canonical",
+  "cursor_policy": "Playback time at each 30-fps frame midpoint; stored STFT is not recomputed live",
+  "preview_decoded_peak_fs": 0.28300386667251587,
+  "preview_decoded_samples": 288768,
+  "decoder_tail_note": "The container duration is 6 seconds. AAC decoding emits 288768 samples at 48000 Hz because of codec tail padding, rather than exactly 288000; the tail follows the silent outro.",
+  "output_sha256": "f4c595c0d44db09fb1930df2973450b8f45b2633efb64b93eec766acd4647d9a",
+  "pillow": "13.0.0",
+  "input_sha256": {
+    "results/published/audio/chirp.wav": "d1f460ea8280530e3994c4357988bb54acc7fa70b0828503b865258f2a99d62e",
+    "results/published/chirp_stft.csv": "a41d7162fa684eb32b09fec033019758ae1ec2d75da1c550ed39946d076d7b6a",
+    "results/published/stft.json": "94bd101af6c6b4c5b53a8863d27f5bbe1c26af734805d6cdc8a8f44d4ca1b16b"
+  },
+  "renderer_sha256_lf": "52171b1739a9351b7e5367fa3d9edd58e02879a622e3df1fbf0d1e8e4c6cb3c2",
+  "ffmpeg": "ffmpeg version 2024-01-04-git-33698ef891-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers"
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "name": "coherent",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.25,
+    "decoded_rms_fs": 0.17677564293938078,
+    "quantization_max_abs_error": 1.2851877837893877e-05,
+    "parameters": {
+      "kind": "cosine",
+      "frequencies_hz": [
+        512
+      ],
+      "peak_amplitudes": [
+        0.25
+      ]
+    }
+  },
+  {
+    "name": "off_bin",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.25,
+    "decoded_rms_fs": 0.1768153452160119,
+    "quantization_max_abs_error": 1.5256052057738279e-05,
+    "parameters": {
+      "kind": "cosine",
+      "frequencies_hz": [
+        513.3
+      ],
+      "peak_amplitudes": [
+        0.25
+      ]
+    }
+  },
+  {
+    "name": "close_short",
+    "sample_rate": 8192,
+    "samples": 512,
+    "duration_seconds": 0.0625,
+    "decoded_peak_fs": 0.239990234375,
+    "decoded_rms_fs": 0.10889986957538586,
+    "quantization_max_abs_error": 1.5254408907094952e-05,
+    "parameters": {
+      "kind": "two cosines",
+      "frequencies_hz": [
+        1000,
+        1010
+      ],
+      "peak_amplitudes": [
+        0.12,
+        0.12
+      ]
+    }
+  },
+  {
+    "name": "close_long",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.239990234375,
+    "decoded_rms_fs": 0.1200000215551195,
+    "quantization_max_abs_error": 1.5255609474545961e-05,
+    "parameters": {
+      "kind": "two cosines",
+      "frequencies_hz": [
+        1000,
+        1010
+      ],
+      "peak_amplitudes": [
+        0.12,
+        0.12
+      ]
+    }
+  },
+  {
+    "name": "chirp",
+    "sample_rate": 8192,
+    "samples": 8192,
+    "duration_seconds": 1.0,
+    "decoded_peak_fs": 0.25,
+    "decoded_rms_fs": 0.17677669368757598,
+    "quantization_max_abs_error": 1.5256461376345065e-05,
+    "parameters": {
+      "kind": "linear chirp",
+      "start_hz": 256,
+      "end_at_one_second_hz": 2800,
+      "peak_amplitude": 0.25
+    }
+  },
+  {
+    "name": "noise",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.245330810546875,
+    "decoded_rms_fs": 0.05942878908429352,
+    "quantization_max_abs_error": 1.525764280511932e-05,
+    "parameters": {
+      "kind": "seeded Gaussian noise with explicit +/-0.29 clipping",
+      "standard_deviation_before_clipping": 0.06,
+      "seed": 20261121
+    }
+  },
+  {
+    "name": "alias_high",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.25,
+    "decoded_rms_fs": 0.1767766952966369,
+    "quantization_max_abs_error": 6.319529689972904e-13,
+    "parameters": {
+      "kind": "sampled cosine above Nyquist",
+      "generating_frequency_hz": 6144,
+      "peak_amplitude": 0.25
+    }
+  },
+  {
+    "name": "alias_low",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.25,
+    "decoded_rms_fs": 0.1767766952966369,
+    "quantization_max_abs_error": 1.7185740593595617e-13,
+    "parameters": {
+      "kind": "sampled cosine below Nyquist",
+      "generating_frequency_hz": 2048,
+      "peak_amplitude": 0.25
+    }
+  },
+  {
+    "name": "calibration",
+    "sample_rate": 8192,
+    "samples": 4096,
+    "duration_seconds": 0.5,
+    "decoded_peak_fs": 0.220001220703125,
+    "decoded_rms_fs": 0.11135370291126977,
+    "quantization_max_abs_error": 1.1686060381446706e-05,
+    "parameters": {
+      "kind": "DC plus cosine plus Nyquist",
+      "dc": 0.05,
+      "tone_hz": 512,
+      "tone_peak_amplitude": 0.1,
+      "nyquist_peak_amplitude": 0.07
+    }
+  }
+]

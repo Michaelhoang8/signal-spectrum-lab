@@ -1,0 +1,10 @@
+{
+  "alias_pcm_identical": true,
+  "alias_wav_identical": true,
+  "leakage_exclusion_half_width_hz": 8,
+  "leakage_grid_spacing_hz": 0.5,
+  "off_bin_outside_8hz_power_fraction": {
+    "rectangular": 0.02525395613247272,
+    "hann": 1.3795207447856998e-05
+  }
+}

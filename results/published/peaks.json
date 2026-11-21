@@ -1,0 +1,569 @@
+{
+  "policy": "Five highest local bin maxima, no interpolation or component-fitting claim",
+  "analyses": {
+    "coherent__rectangular__4096": [
+      {
+        "bin": 256,
+        "frequency_hz": 512.0,
+        "amplitude_peak_fs": 0.24999851144292673
+      },
+      {
+        "bin": 1792,
+        "frequency_hz": 3584.0,
+        "amplitude_peak_fs": 9.715589961156734e-06
+      },
+      {
+        "bin": 768,
+        "frequency_hz": 1536.0,
+        "amplitude_peak_fs": 7.3807021721721545e-06
+      },
+      {
+        "bin": 1280,
+        "frequency_hz": 2560.0,
+        "amplitude_peak_fs": 8.463307157238595e-07
+      },
+      {
+        "bin": 0,
+        "frequency_hz": 0.0,
+        "amplitude_peak_fs": 0.0
+      }
+    ],
+    "coherent__hann__4096": [
+      {
+        "bin": 256,
+        "frequency_hz": 512.0,
+        "amplitude_peak_fs": 0.24999851144292673
+      },
+      {
+        "bin": 1792,
+        "frequency_hz": 3584.0,
+        "amplitude_peak_fs": 9.715589961156734e-06
+      },
+      {
+        "bin": 768,
+        "frequency_hz": 1536.0,
+        "amplitude_peak_fs": 7.3807021721721545e-06
+      },
+      {
+        "bin": 1280,
+        "frequency_hz": 2560.0,
+        "amplitude_peak_fs": 8.463307157238595e-07
+      },
+      {
+        "bin": 271,
+        "frequency_hz": 542.0,
+        "amplitude_peak_fs": 1.4846324631638377e-17
+      }
+    ],
+    "off_bin__rectangular__4096": [
+      {
+        "bin": 257,
+        "frequency_hz": 514.0,
+        "amplitude_peak_fs": 0.20270350594990344
+      },
+      {
+        "bin": 651,
+        "frequency_hz": 1302.0,
+        "amplitude_peak_fs": 0.0002590671325798268
+      },
+      {
+        "bin": 682,
+        "frequency_hz": 1364.0,
+        "amplitude_peak_fs": 0.0002443811128532809
+      },
+      {
+        "bin": 685,
+        "frequency_hz": 1370.0,
+        "amplitude_peak_fs": 0.0002428990115382711
+      },
+      {
+        "bin": 712,
+        "frequency_hz": 1424.0,
+        "amplitude_peak_fs": 0.00023154683318186392
+      }
+    ],
+    "off_bin__hann__4096": [
+      {
+        "bin": 257,
+        "frequency_hz": 514.0,
+        "amplitude_peak_fs": 0.23086358232909618
+      },
+      {
+        "bin": 281,
+        "frequency_hz": 562.0,
+        "amplitude_peak_fs": 5.32117060310773e-06
+      },
+      {
+        "bin": 285,
+        "frequency_hz": 570.0,
+        "amplitude_peak_fs": 3.368622260384571e-06
+      },
+      {
+        "bin": 226,
+        "frequency_hz": 452.0,
+        "amplitude_peak_fs": 3.055412633173245e-06
+      },
+      {
+        "bin": 288,
+        "frequency_hz": 576.0,
+        "amplitude_peak_fs": 2.810135194136292e-06
+      }
+    ],
+    "off_bin__rectangular__16384": [
+      {
+        "bin": 1027,
+        "frequency_hz": 513.5,
+        "amplitude_peak_fs": 0.24603670276093026
+      },
+      {
+        "bin": 1021,
+        "frequency_hz": 510.5,
+        "amplitude_peak_fs": 0.05401691839056528
+      },
+      {
+        "bin": 1032,
+        "frequency_hz": 516.0,
+        "amplitude_peak_fs": 0.0526421064277801
+      },
+      {
+        "bin": 1017,
+        "frequency_hz": 508.5,
+        "amplitude_peak_fs": 0.031492029111418185
+      },
+      {
+        "bin": 1036,
+        "frequency_hz": 518.0,
+        "amplitude_peak_fs": 0.030292861212124673
+      }
+    ],
+    "off_bin__hann__16384": [
+      {
+        "bin": 1027,
+        "frequency_hz": 513.5,
+        "amplitude_peak_fs": 0.24839162398235767
+      },
+      {
+        "bin": 1036,
+        "frequency_hz": 518.0,
+        "amplitude_peak_fs": 0.006670876724692979
+      },
+      {
+        "bin": 1017,
+        "frequency_hz": 508.5,
+        "amplitude_peak_fs": 0.006625222272507466
+      },
+      {
+        "bin": 1013,
+        "frequency_hz": 506.5,
+        "amplitude_peak_fs": 0.00210778097721112
+      },
+      {
+        "bin": 1040,
+        "frequency_hz": 520.0,
+        "amplitude_peak_fs": 0.002071043757486683
+      }
+    ],
+    "close_short__rectangular__512": [
+      {
+        "bin": 63,
+        "frequency_hz": 1008.0,
+        "amplitude_peak_fs": 0.11325114562027602
+      },
+      {
+        "bin": 222,
+        "frequency_hz": 3552.0,
+        "amplitude_peak_fs": 0.00048569764368637633
+      },
+      {
+        "bin": 226,
+        "frequency_hz": 3616.0,
+        "amplitude_peak_fs": 0.00048213902260817886
+      },
+      {
+        "bin": 232,
+        "frequency_hz": 3712.0,
+        "amplitude_peak_fs": 0.00047769418828043624
+      },
+      {
+        "bin": 235,
+        "frequency_hz": 3760.0,
+        "amplitude_peak_fs": 0.00047598214412256106
+      }
+    ],
+    "close_short__hann__512": [
+      {
+        "bin": 63,
+        "frequency_hz": 1008.0,
+        "amplitude_peak_fs": 0.12339515038175804
+      },
+      {
+        "bin": 82,
+        "frequency_hz": 1312.0,
+        "amplitude_peak_fs": 7.007799769489361e-06
+      },
+      {
+        "bin": 84,
+        "frequency_hz": 1344.0,
+        "amplitude_peak_fs": 5.817714858921494e-06
+      },
+      {
+        "bin": 40,
+        "frequency_hz": 640.0,
+        "amplitude_peak_fs": 4.646496916628852e-06
+      },
+      {
+        "bin": 87,
+        "frequency_hz": 1392.0,
+        "amplitude_peak_fs": 3.4626984879725514e-06
+      }
+    ],
+    "close_short__rectangular__4096": [
+      {
+        "bin": 503,
+        "frequency_hz": 1006.0,
+        "amplitude_peak_fs": 0.113515448366285
+      },
+      {
+        "bin": 517,
+        "frequency_hz": 1034.0,
+        "amplitude_peak_fs": 0.028994142880077782
+      },
+      {
+        "bin": 488,
+        "frequency_hz": 976.0,
+        "amplitude_peak_fs": 0.0286753456501166
+      },
+      {
+        "bin": 526,
+        "frequency_hz": 1052.0,
+        "amplitude_peak_fs": 0.01841864097508622
+      },
+      {
+        "bin": 479,
+        "frequency_hz": 958.0,
+        "amplitude_peak_fs": 0.01817893454740627
+      }
+    ],
+    "close_short__hann__4096": [
+      {
+        "bin": 502,
+        "frequency_hz": 1004.0,
+        "amplitude_peak_fs": 0.12495281660549386
+      },
+      {
+        "bin": 481,
+        "frequency_hz": 962.0,
+        "amplitude_peak_fs": 0.00320204955824021
+      },
+      {
+        "bin": 524,
+        "frequency_hz": 1048.0,
+        "amplitude_peak_fs": 0.0032014518960031208
+      },
+      {
+        "bin": 533,
+        "frequency_hz": 1066.0,
+        "amplitude_peak_fs": 0.001074292609006466
+      },
+      {
+        "bin": 472,
+        "frequency_hz": 944.0,
+        "amplitude_peak_fs": 0.0010741099171055618
+      }
+    ],
+    "close_long__rectangular__4096": [
+      {
+        "bin": 500,
+        "frequency_hz": 1000.0,
+        "amplitude_peak_fs": 0.12000009541970019
+      },
+      {
+        "bin": 505,
+        "frequency_hz": 1010.0,
+        "amplitude_peak_fs": 0.11999994705889669
+      },
+      {
+        "bin": 962,
+        "frequency_hz": 1924.0,
+        "amplitude_peak_fs": 9.807919538782505e-07
+      },
+      {
+        "bin": 1327,
+        "frequency_hz": 2654.0,
+        "amplitude_peak_fs": 9.803336194185626e-07
+      },
+      {
+        "bin": 1430,
+        "frequency_hz": 2860.0,
+        "amplitude_peak_fs": 9.169482950802614e-07
+      }
+    ],
+    "close_long__hann__4096": [
+      {
+        "bin": 505,
+        "frequency_hz": 1010.0,
+        "amplitude_peak_fs": 0.1199998716568236
+      },
+      {
+        "bin": 500,
+        "frequency_hz": 1000.0,
+        "amplitude_peak_fs": 0.11999977740584405
+      },
+      {
+        "bin": 419,
+        "frequency_hz": 838.0,
+        "amplitude_peak_fs": 1.2407354251343558e-06
+      },
+      {
+        "bin": 1430,
+        "frequency_hz": 2860.0,
+        "amplitude_peak_fs": 1.1769196071000073e-06
+      },
+      {
+        "bin": 478,
+        "frequency_hz": 956.0,
+        "amplitude_peak_fs": 1.154682808652462e-06
+      }
+    ],
+    "chirp__rectangular__8192": [
+      {
+        "bin": 299,
+        "frequency_hz": 299.0,
+        "amplitude_peak_fs": 0.005876700595264858
+      },
+      {
+        "bin": 2757,
+        "frequency_hz": 2757.0,
+        "amplitude_peak_fs": 0.005828718659053988
+      },
+      {
+        "bin": 340,
+        "frequency_hz": 340.0,
+        "amplitude_peak_fs": 0.0054968080155902875
+      },
+      {
+        "bin": 2716,
+        "frequency_hz": 2716.0,
+        "amplitude_peak_fs": 0.00545386559121643
+      },
+      {
+        "bin": 366,
+        "frequency_hz": 366.0,
+        "amplitude_peak_fs": 0.005385299907715945
+      }
+    ],
+    "chirp__hann__8192": [
+      {
+        "bin": 1528,
+        "frequency_hz": 1528.0,
+        "amplitude_peak_fs": 0.009913299907281625
+      },
+      {
+        "bin": 1524,
+        "frequency_hz": 1524.0,
+        "amplitude_peak_fs": 0.009913279794663213
+      },
+      {
+        "bin": 1519,
+        "frequency_hz": 1519.0,
+        "amplitude_peak_fs": 0.009912156305970986
+      },
+      {
+        "bin": 2766,
+        "frequency_hz": 2766.0,
+        "amplitude_peak_fs": 1.9361944174592236e-05
+      },
+      {
+        "bin": 278,
+        "frequency_hz": 278.0,
+        "amplitude_peak_fs": 1.054498598774773e-05
+      }
+    ],
+    "noise__rectangular__4096": [
+      {
+        "bin": 1074,
+        "frequency_hz": 2148.0,
+        "amplitude_peak_fs": 0.005273843084782275
+      },
+      {
+        "bin": 148,
+        "frequency_hz": 296.0,
+        "amplitude_peak_fs": 0.005099255736413016
+      },
+      {
+        "bin": 1631,
+        "frequency_hz": 3262.0,
+        "amplitude_peak_fs": 0.005095457678145086
+      },
+      {
+        "bin": 664,
+        "frequency_hz": 1328.0,
+        "amplitude_peak_fs": 0.0049063804621234264
+      },
+      {
+        "bin": 1618,
+        "frequency_hz": 3236.0,
+        "amplitude_peak_fs": 0.004833351946359513
+      }
+    ],
+    "noise__hann__4096": [
+      {
+        "bin": 148,
+        "frequency_hz": 296.0,
+        "amplitude_peak_fs": 0.00742101183523488
+      },
+      {
+        "bin": 1587,
+        "frequency_hz": 3174.0,
+        "amplitude_peak_fs": 0.006674313818434743
+      },
+      {
+        "bin": 309,
+        "frequency_hz": 618.0,
+        "amplitude_peak_fs": 0.006306709858925424
+      },
+      {
+        "bin": 1818,
+        "frequency_hz": 3636.0,
+        "amplitude_peak_fs": 0.005928024030325683
+      },
+      {
+        "bin": 1946,
+        "frequency_hz": 3892.0,
+        "amplitude_peak_fs": 0.005811350630121731
+      }
+    ],
+    "alias_high__rectangular__4096": [
+      {
+        "bin": 1024,
+        "frequency_hz": 2048.0,
+        "amplitude_peak_fs": 0.25
+      },
+      {
+        "bin": 0,
+        "frequency_hz": 0.0,
+        "amplitude_peak_fs": 0.0
+      }
+    ],
+    "alias_high__hann__4096": [
+      {
+        "bin": 1024,
+        "frequency_hz": 2048.0,
+        "amplitude_peak_fs": 0.25
+      },
+      {
+        "bin": 511,
+        "frequency_hz": 1022.0,
+        "amplitude_peak_fs": 1.6573066699238625e-17
+      },
+      {
+        "bin": 1039,
+        "frequency_hz": 2078.0,
+        "amplitude_peak_fs": 1.4074516451800487e-17
+      },
+      {
+        "bin": 1007,
+        "frequency_hz": 2014.0,
+        "amplitude_peak_fs": 1.3281374964311222e-17
+      },
+      {
+        "bin": 1535,
+        "frequency_hz": 3070.0,
+        "amplitude_peak_fs": 1.1803302869503395e-17
+      }
+    ],
+    "alias_low__rectangular__4096": [
+      {
+        "bin": 1024,
+        "frequency_hz": 2048.0,
+        "amplitude_peak_fs": 0.25
+      },
+      {
+        "bin": 0,
+        "frequency_hz": 0.0,
+        "amplitude_peak_fs": 0.0
+      }
+    ],
+    "alias_low__hann__4096": [
+      {
+        "bin": 1024,
+        "frequency_hz": 2048.0,
+        "amplitude_peak_fs": 0.25
+      },
+      {
+        "bin": 511,
+        "frequency_hz": 1022.0,
+        "amplitude_peak_fs": 1.6573066699238625e-17
+      },
+      {
+        "bin": 1039,
+        "frequency_hz": 2078.0,
+        "amplitude_peak_fs": 1.4074516451800487e-17
+      },
+      {
+        "bin": 1007,
+        "frequency_hz": 2014.0,
+        "amplitude_peak_fs": 1.3281374964311222e-17
+      },
+      {
+        "bin": 1535,
+        "frequency_hz": 3070.0,
+        "amplitude_peak_fs": 1.1803302869503395e-17
+      }
+    ],
+    "calibration__rectangular__4096": [
+      {
+        "bin": 256,
+        "frequency_hz": 512.0,
+        "amplitude_peak_fs": 0.1000030017223049
+      },
+      {
+        "bin": 2048,
+        "frequency_hz": 4096.0,
+        "amplitude_peak_fs": 0.06999588012695312
+      },
+      {
+        "bin": 0,
+        "frequency_hz": 0.0,
+        "amplitude_peak_fs": 0.049999237060546875
+      },
+      {
+        "bin": 512,
+        "frequency_hz": 1024.0,
+        "amplitude_peak_fs": 5.394796609394436e-06
+      },
+      {
+        "bin": 1536,
+        "frequency_hz": 3072.0,
+        "amplitude_peak_fs": 5.394796609394436e-06
+      }
+    ],
+    "calibration__hann__4096": [
+      {
+        "bin": 256,
+        "frequency_hz": 512.0,
+        "amplitude_peak_fs": 0.1000030017223049
+      },
+      {
+        "bin": 2047,
+        "frequency_hz": 4094.0,
+        "amplitude_peak_fs": 0.06999588012695312
+      },
+      {
+        "bin": 0,
+        "frequency_hz": 0.0,
+        "amplitude_peak_fs": 0.049999237060546875
+      },
+      {
+        "bin": 512,
+        "frequency_hz": 1024.0,
+        "amplitude_peak_fs": 5.394796609394436e-06
+      },
+      {
+        "bin": 1536,
+        "frequency_hz": 3072.0,
+        "amplitude_peak_fs": 5.394796609394436e-06
+      }
+    ]
+  }
+}

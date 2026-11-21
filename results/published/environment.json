@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-20T23:41:00.956461+00:00",
+  "completed_utc": "2026-11-20T23:41:01.611629+00:00",
+  "python": "3.13.17",
+  "numpy": "2.3.5",
+  "os": "Windows",
+  "architecture": "AMD64",
+  "repetitions": 7,
+  "timed_calls": 56,
+  "sample_rate": 8192,
+  "fixture_seed": 20261121,
+  "order_seed": 807,
+  "source_sha256_lf": {
+    "src/spectrumlab/core.py": "102ceed28cc8414ddb1452663343858dcc4d2925ddb52fb73a9b356e34d42e0d",
+    "src/spectrumlab/audio.py": "37627d3afb95030d41f22076f17beba56bec6a25d6a0b1d7ef843a16c341a02e",
+    "src/spectrumlab/fixtures.py": "f8c012a96d2799a1899d7bacdc8f5634371aad5da86fd486da7629c7a9b97b9a",
+    "scripts/run_study.py": "7dcedcfd517ef0a7a3e7868f6efe64a940af7cbdbcb8dc8807ff674dfbfea80a"
+  },
+  "source_hash_policy": "CRLF and CR normalized to LF before SHA-256, captured before analysis and timing",
+  "precision": "Python complex uses double-precision components; reference array explicitly complex128",
+  "timing_scope": "Decoded chirp prefixes; warmed whole FFT calls with prepared tuple/complex128 array; no WAV I/O, plotting, windowing or calibration timed",
+  "provenance": "All audio synthesized by this repository, written as mono PCM16, then decoded before analysis; no recordings or external music"
+}

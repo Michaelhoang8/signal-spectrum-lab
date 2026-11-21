@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-20T23:57:02.164689+00:00",
+  "source": "Actual browser rendering of docs/report.html",
+  "recording": "Continuous automated browser review; not manual development footage",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page_title": "Signal spectrum lab | FFT and calibration study",
+  "report_sha256_normalized_text": "ff4167428d40ee125d1792b4550051b40f394a43a4048594bfda170f0da1a254",
+  "video_sha256": "372eb9ce3cd00340da697108c1b1a7463ae9894ae3842bb44eb7457f48f2914d",
+  "captures": [
+    {
+      "path": "docs/screenshots/01_overview.png",
+      "section": "overview",
+      "sha256": "191de96866d7832997685ae3943d241f107250747c07d71bb994771ccdbbbbf5"
+    },
+    {
+      "path": "docs/screenshots/02_windows.png",
+      "section": "windows",
+      "sha256": "84da10ffd5c53887234a801813776c1fdd16178392f51e5a8eae093e1f318cb9"
+    },
+    {
+      "path": "docs/screenshots/03_padding.png",
+      "section": "padding",
+      "sha256": "61bd4f24934e56cdb9aadb6ffa25880eee3004760b73eb703fda05df4351c753"
+    },
+    {
+      "path": "docs/screenshots/04_calibration.png",
+      "section": "calibration",
+      "sha256": "d5c6089bbb3b73d3152ae64e6bd05182f5afcff30741d739d7f9442c782417ec"
+    },
+    {
+      "path": "docs/screenshots/05_aliasing.png",
+      "section": "aliasing",
+      "sha256": "541b66256e0bb3f2c167efbb5815284284a5b5d4ebbdc7a392d21f5fd7cd5301"
+    },
+    {
+      "path": "docs/screenshots/06_validation.png",
+      "section": "validation",
+      "sha256": "779196d9cb515c1ff4e5acaeed39a44d0f2eac74c86ed4d71a6af4f993e442f8"
+    }
+  ]
+}

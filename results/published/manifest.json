@@ -1,0 +1,207 @@
+[
+  {
+    "path": "audio/alias_high.wav",
+    "bytes": 8236,
+    "sha256": "2420e0637424705fc720e44949dd5256db9ff650816049a740f8b3dcef9f8e7f"
+  },
+  {
+    "path": "audio/alias_low.wav",
+    "bytes": 8236,
+    "sha256": "2420e0637424705fc720e44949dd5256db9ff650816049a740f8b3dcef9f8e7f"
+  },
+  {
+    "path": "audio/calibration.wav",
+    "bytes": 8236,
+    "sha256": "317c1ef4d482586ff5a6a2d7312f11f8199ed1a63e1879dd850251f5c994140c"
+  },
+  {
+    "path": "audio/chirp.wav",
+    "bytes": 16428,
+    "sha256": "d1f460ea8280530e3994c4357988bb54acc7fa70b0828503b865258f2a99d62e"
+  },
+  {
+    "path": "audio/close_long.wav",
+    "bytes": 8236,
+    "sha256": "b38e81635bb6b48f69196a0ffdaf6c69d72fd9a453877ce66100326eaa729b2d"
+  },
+  {
+    "path": "audio/close_short.wav",
+    "bytes": 1068,
+    "sha256": "d88fd48b079271891a272a9c04964c92b79555951b9b81b0ce02035bc4646121"
+  },
+  {
+    "path": "audio/coherent.wav",
+    "bytes": 8236,
+    "sha256": "1d277775428b759c3a07739e415a7904fe8b3453e8bc91872f22a644591d0499"
+  },
+  {
+    "path": "audio/noise.wav",
+    "bytes": 8236,
+    "sha256": "59229807fc62e710da61496c6611eb0fb47f202ed79c7ec4dba067622a597284"
+  },
+  {
+    "path": "audio/off_bin.wav",
+    "bytes": 8236,
+    "sha256": "250584b15159d8655c87c8fe063ffb11f2a36849c1b11c09a05dc7273b2f1709"
+  },
+  {
+    "path": "chirp_stft.csv",
+    "bytes": 767295,
+    "sha256": "a41d7162fa684eb32b09fec033019758ae1ec2d75da1c550ed39946d076d7b6a"
+  },
+  {
+    "path": "environment.json",
+    "bytes": 1257,
+    "sha256": "3eead67d4f14aae2cddd0c594138eb4ad0f951b164994cac3fe3265d8c1e77b0"
+  },
+  {
+    "path": "fixtures.json",
+    "bytes": 3616,
+    "sha256": "e2f458788c570b9e5de9098ec4af8cd9c19787449d5335e847550624e8217074"
+  },
+  {
+    "path": "measurements.csv",
+    "bytes": 1447,
+    "sha256": "19641b987f2f9af1443082926912806067249c525a3c74813c782fe122e81f87"
+  },
+  {
+    "path": "observations.json",
+    "bytes": 261,
+    "sha256": "231f6ebafaa5a11bab434fbca9e71ce9c60d8d37f81d5216cbad95e4626fc4b7"
+  },
+  {
+    "path": "peaks.json",
+    "bytes": 13264,
+    "sha256": "5cd15eeff5e9b1b1c6ecd1c59dffcbd13c6f6a6837f5e0fe510cb0c4d165ce08"
+  },
+  {
+    "path": "runtime_summary.csv",
+    "bytes": 311,
+    "sha256": "7ff9e36cd5efadb55a1af3b03dcecccea799ffb511fe5fc743272b76eebce1e2"
+  },
+  {
+    "path": "spectra/alias_high__hann__4096.csv",
+    "bytes": 112012,
+    "sha256": "449b4afb5923d3fd685ab039ab8025750762edb0e3b93037b4322c11604074ce"
+  },
+  {
+    "path": "spectra/alias_high__rectangular__4096.csv",
+    "bytes": 39371,
+    "sha256": "9f0836eb8e526ff62938c8bfc98b05a0b99287e0aaf50327cd909b5004d0f841"
+  },
+  {
+    "path": "spectra/alias_low__hann__4096.csv",
+    "bytes": 112012,
+    "sha256": "449b4afb5923d3fd685ab039ab8025750762edb0e3b93037b4322c11604074ce"
+  },
+  {
+    "path": "spectra/alias_low__rectangular__4096.csv",
+    "bytes": 39371,
+    "sha256": "9f0836eb8e526ff62938c8bfc98b05a0b99287e0aaf50327cd909b5004d0f841"
+  },
+  {
+    "path": "spectra/calibration__hann__4096.csv",
+    "bytes": 113515,
+    "sha256": "27b349e41a3ccaa2789488a09209246e8d7f00041e0a6e348c925cefa4064385"
+  },
+  {
+    "path": "spectra/calibration__rectangular__4096.csv",
+    "bytes": 39650,
+    "sha256": "fdd56a8336ff6f3ab153d6a68617d1ffb8a2a0d194b3edbc170d04abb580372c"
+  },
+  {
+    "path": "spectra/chirp__hann__8192.csv",
+    "bytes": 228028,
+    "sha256": "710083f9bb5f3e6ff84e7e0a2ec4c891d806d5d4a99614ac71abdf2b454511bd"
+  },
+  {
+    "path": "spectra/chirp__rectangular__8192.csv",
+    "bytes": 227878,
+    "sha256": "7847527e800d84bb30a211b6520f373e066e92b0a2ba07116097134e58a4af99"
+  },
+  {
+    "path": "spectra/close_long__hann__4096.csv",
+    "bytes": 114611,
+    "sha256": "a0e9a4dc8b13bfea194f14b8115d69bbad75996e6864e912732d43fd197eafe3"
+  },
+  {
+    "path": "spectra/close_long__rectangular__4096.csv",
+    "bytes": 114719,
+    "sha256": "0c80b915989777fcf77af0de063ba07cc6e331807be3984cadc534832b426c50"
+  },
+  {
+    "path": "spectra/close_short__hann__4096.csv",
+    "bytes": 114515,
+    "sha256": "bf108c530097c6b2e51e0e2bd09863c44b34e3b6113a487438177fd5fd8f6e7a"
+  },
+  {
+    "path": "spectra/close_short__hann__512.csv",
+    "bytes": 14162,
+    "sha256": "9ae26b79eb70041d62cd2ac963b5ba78168773ae8807ab9e04abe7f88d67dc73"
+  },
+  {
+    "path": "spectra/close_short__rectangular__4096.csv",
+    "bytes": 113440,
+    "sha256": "2bbbf97b122eff09196c420ad4675f2d74ff392a841d1c121ec29477530c34e9"
+  },
+  {
+    "path": "spectra/close_short__rectangular__512.csv",
+    "bytes": 14024,
+    "sha256": "5e4394240f17c20980e94c32ce9bacd41e6665d6bdd6e5e0e6d3e686921d997f"
+  },
+  {
+    "path": "spectra/coherent__hann__4096.csv",
+    "bytes": 112151,
+    "sha256": "e60160357e5a69cb052405088b35118ded93c818633a393a403385891ba26fad"
+  },
+  {
+    "path": "spectra/coherent__rectangular__4096.csv",
+    "bytes": 39509,
+    "sha256": "62ab803ff7bd8447baa1bfef7010fb6c5ea7c3f5e1daa335569eab67c226ebd0"
+  },
+  {
+    "path": "spectra/noise__hann__4096.csv",
+    "bytes": 113201,
+    "sha256": "a74bd61ece33532ce3cea302155134a7aec5ed9c0eafb37900330173d86ef611"
+  },
+  {
+    "path": "spectra/noise__rectangular__4096.csv",
+    "bytes": 113319,
+    "sha256": "14e870e2a5eff7f21f633745da4798fe9e0ce3e8578b11978491d5f80fea5acb"
+  },
+  {
+    "path": "spectra/off_bin__hann__16384.csv",
+    "bytes": 462078,
+    "sha256": "2befaced3ad61ec47a4bcdd1c0cc6ef75e8dcd59a751cf4325c88fe84bc50e91"
+  },
+  {
+    "path": "spectra/off_bin__hann__4096.csv",
+    "bytes": 114748,
+    "sha256": "4de17255f8b935087b539a2601470cafc29529468ba7827d18d3da20d9daadc9"
+  },
+  {
+    "path": "spectra/off_bin__rectangular__16384.csv",
+    "bytes": 461727,
+    "sha256": "7342c85fb047ffee6df8eb9645fe9050dc1a691c6cd1af3617a245b17a8be522"
+  },
+  {
+    "path": "spectra/off_bin__rectangular__4096.csv",
+    "bytes": 114931,
+    "sha256": "d88b9fae989ec4ff94e999b3dc3686e72935a7d4ac471a4ff2c3d0ec5743722d"
+  },
+  {
+    "path": "spectral_summary.csv",
+    "bytes": 3039,
+    "sha256": "3964bc3bc59864f1985048b9d157225552c11ed1500086d44ae5423eb37224b7"
+  },
+  {
+    "path": "stft.json",
+    "bytes": 280,
+    "sha256": "94bd101af6c6b4c5b53a8863d27f5bbe1c26af734805d6cdc8a8f44d4ca1b16b"
+  },
+  {
+    "path": "transform_comparison.csv",
+    "bytes": 520,
+    "sha256": "631ffbb575c423d954ff794c4b33094c7e95d971b07e5cb6e2b545cad91e9166"
+  }
+]
